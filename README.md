@@ -1,41 +1,44 @@
-# python-caixa-eletronico
 # 🏦 Banco DEV - Simulador de Caixa Eletrônico
 
-Este projeto simula o funcionamento de um caixa eletrônico, onde o usuário informa um valor a sacar, e o sistema calcula a menor quantidade de cédulas necessárias (R$100, R$50, R$20, R$10, R$5 e R$1) para realizar o saque.
+Este é um projeto desenvolvido como parte do meu portfólio de estudos em Python. O sistema simula o funcionamento de um caixa eletrônico, calculando a menor quantidade de cédulas necessárias para realizar um saque.
 
 ---
 
-## 💡 Objetivo
+## 🎯 Objetivo do Projeto
 
-Criar uma aplicação simples de terminal que:
+O principal objetivo foi praticar:
 
-- Simule o funcionamento de um caixa eletrônico
-- Utilize lógica de laços e condicionais
-- Pratique entrada de dados e estrutura de repetição em Python
-- Reforce a ideia de "troco" com notas disponíveis
-
----
-
-## ⚙️ Como funciona
-
-O usuário executa o programa e informa um valor a sacar. O sistema então informa quantas cédulas de cada valor serão entregues.
-
-Após cada saque, o usuário pode optar por realizar outra operação ou encerrar o programa.
+- Lógica de programação
+- Estruturas de repetição (`while`)
+- Condicionais (`if/elif`)
+- Manipulação de variáveis
+- Entrada e saída de dados no terminal
 
 ---
 
-## 🚀 Tecnologias Utilizadas
+## 💻 Tecnologias Utilizadas
 
-- **Python 3.10+**
-- Módulo `time.sleep()` para simular espera (como se fosse uma interface real de caixa eletrônico)
+- Python 3
+- `time.sleep()` para simular espera no terminal
 
 ---
 
-## ▶️ Como Executar
+## 🧠 O que eu aprendi
 
-1. Salve o código como `caixa_eletronico.py`.
+Neste projeto, aprendi a:
 
-2. Execute com o Python:
+- Controlar um laço `while` com múltiplas condições
+- Reduzir um valor aos poucos usando decremento
+- Trocar dinamicamente o tipo de cédula com base no valor restante
+- Organizar o fluxo de um programa de terminal
+- Criar um projeto com estrutura para repositório GitHub
+
+---
+
+## ▶️ Como executar o projeto
+
+1. Instale o Python em seu sistema: [https://www.python.org/downloads/](https://www.python.org/downloads/)
+2. Clone o repositório:
 
 ```bash
-python caixa_eletronico.py
+git clone https://github.com/seu-usuario/banco-dev-caixa.git

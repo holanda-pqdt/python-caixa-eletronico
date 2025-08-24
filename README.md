@@ -41,4 +41,4 @@ Neste projeto, aprendi a:
 2. Clone o repositório:
 
 ```bash
-git clone https://github.com/holanda-pqdt/banco-dev-caixa.git
+git clone https://github.com/holanda-pqdt/python-caixa-eletronico.git
